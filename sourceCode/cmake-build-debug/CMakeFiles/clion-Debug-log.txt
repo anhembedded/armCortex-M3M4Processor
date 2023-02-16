@@ -1,0 +1,7 @@
+"C:\Program Files\JetBrains\CLion 2022.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" -S D:\Study\armCortex-M3M4Processor\sourceCode -B D:\Study\armCortex-M3M4Processor\sourceCode\cmake-build-debug
+-- Minimal optimization, debug info included
+CMAKE_SOURCE_DIR
+D:/Study/armCortex-M3M4Processor/sourceCode
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Study/armCortex-M3M4Processor/sourceCode/cmake-build-debug

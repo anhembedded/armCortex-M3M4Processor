@@ -1,0 +1,20 @@
+set(CMAKE_C_COMPILER arm-none-eabi-gcc-12.2.0.exe)
+
+
+cmake_minimum_required(VERSION 3.0.0)
+project(stm32f407_bareMetal VERSION 0.1.0)
+
+
+
+add_compile_options(-mcpu=cortex-m4 -mthumb -mthumb-interwork)
+
+
+
+
+message(STATUS ___________CmakeCompiler___________)
+message("CMAKE_PROJECT_NAME:          " ${CMAKE_PROJECT_NAME})
+message("CMAKE_HOST_SYSTEM_PROCESSOR: " ${CMAKE_HOST_SYSTEM_PROCESSOR})
+message("LINKER_LANGUAGE :            " ${LINKER_LANGUAGE})
+message("CMAKE_CXX_COMPILER_ID:       " ${CMAKE_CXX_COMPILER_ID})
+message("CMAKE_C_COMPILER_ID:         " ${CMAKE_C_COMPILER_ID})
+message("CMAKE_BUILD_TYPE:            " ${CMAKE_BUILD_TYPE})
