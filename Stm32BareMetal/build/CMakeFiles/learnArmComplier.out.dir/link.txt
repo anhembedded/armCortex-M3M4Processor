@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E rm -f CMakeFiles\learnArmComplier.out.dir/objects.a
+C:\gnuArm\bin\arm-none-eabi-ar qc CMakeFiles\learnArmComplier.out.dir/objects.a @CMakeFiles\learnArmComplier.out.dir\objects1.rsp
+C:\gnuArm\bin\arm-none-eabi-gcc.exe -g -TD:/Study/armCortex-M3M4Processor/Stm32BareMetal/stm32_linkerscrip.ld -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -specs=nano.specs -lc -lm -lnosys -Wl,-Map=learnArmComplier.map,--cref -Wl,--gc-sections -Wl,--whole-archive CMakeFiles\learnArmComplier.out.dir/objects.a -Wl,--no-whole-archive -o learnArmComplier.out.exe -Wl,--out-implib,liblearnArmComplier.out.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\learnArmComplier.out.dir\linklibs.rsp

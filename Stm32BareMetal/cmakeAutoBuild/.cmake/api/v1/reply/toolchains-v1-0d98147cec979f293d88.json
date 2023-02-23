@@ -1,0 +1,104 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : {},
+				"path" : "C:/gnuArm/bin/arm-none-eabi-gcc.exe",
+				"version" : ""
+			},
+			"language" : "ASM",
+			"sourceFileExtensions" : 
+			[
+				"s",
+				"S",
+				"asm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include",
+						"C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include-fixed",
+						"C:/gnuArm/arm-none-eabi/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/gnuArm/bin/arm-none-eabi-gcc.exe",
+				"version" : "12.2.1"
+			},
+			"language" : "C",
+			"sourceFileExtensions" : 
+			[
+				"c",
+				"m"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"id" : "GNU",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"C:/gnuArm/arm-none-eabi/include/c++/12.2.1",
+						"C:/gnuArm/arm-none-eabi/include/c++/12.2.1/arm-none-eabi",
+						"C:/gnuArm/arm-none-eabi/include/c++/12.2.1/backward",
+						"C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include",
+						"C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include-fixed",
+						"C:/gnuArm/arm-none-eabi/include"
+					],
+					"linkDirectories" : [],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : []
+				},
+				"path" : "C:/gnuArm/bin/arm-none-eabi-g++.exe",
+				"version" : "12.2.1"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm"
+			]
+		},
+		{
+			"compiler" : 
+			{
+				"implicit" : {},
+				"path" : "C:/MinGW/bin/windres.exe"
+			},
+			"language" : "RC",
+			"sourceFileExtensions" : 
+			[
+				"rc",
+				"RC"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

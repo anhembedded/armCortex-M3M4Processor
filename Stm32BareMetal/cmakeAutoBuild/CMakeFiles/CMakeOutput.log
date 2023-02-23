@@ -1,0 +1,303 @@
+The system is: Windows - 10.0.22623 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/gnuArm/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/3.24.2/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/gnuArm/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/3.24.2/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_51ce6/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_51ce6.dir\build.make CMakeFiles/cmTC_51ce6.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_51ce6.dir/CMakeCCompilerABI.c.obj
+C:\gnuArm\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=C:\gnuArm\bin\arm-none-eabi-gcc.exe
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_51ce6.dir\'
+ c:/gnuarm/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1.exe -quiet -v -iprefix c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/ -isysroot c:\gnuarm\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_51ce6.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\hoang\AppData\Local\Temp\cc55IxFU.s
+GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"
+ignoring nonexistent directory "c:\gnuarm\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.2.1/../../../../include"
+ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"
+ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\gnuarm\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/include
+ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/include-fixed
+ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 09cd87bee7d3ebbf93fc326691d67ce6
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_51ce6.dir\'
+ c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.obj C:\Users\hoang\AppData\Local\Temp\cc55IxFU.s
+GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210
+COMPILER_PATH=c:/gnuarm/bin/../libexec/gcc/arm-none-eabi/12.2.1/;c:/gnuarm/bin/../libexec/gcc/;c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/;c:/gnuarm/bin/../lib/gcc/;c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/;c:/gnuarm/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.'
+Linking C static library libcmTC_51ce6.a
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P CMakeFiles\cmTC_51ce6.dir\cmake_clean_target.cmake
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_51ce6.dir\link.txt --verbose=1
+C:\gnuArm\bin\arm-none-eabi-ar qc libcmTC_51ce6.a CMakeFiles/cmTC_51ce6.dir/CMakeCCompilerABI.c.obj
+C:\gnuArm\bin\arm-none-eabi-ranlib.exe libcmTC_51ce6.a
+mingw32-make.exe[1]: Leaving directory 'D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+    add: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+    add: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/include] ==> [C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include]
+  collapse include dir [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed] ==> [C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+  collapse include dir [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include] ==> [C:/gnuArm/arm-none-eabi/include]
+  implicit include dirs: [C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include;C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include-fixed;C:/gnuArm/arm-none-eabi/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_51ce6/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_51ce6.dir\build.make CMakeFiles/cmTC_51ce6.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_51ce6.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\gnuArm\bin\arm-none-eabi-gcc.exe   -v -o CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.obj -c "C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\gnuArm\bin\arm-none-eabi-gcc.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_51ce6.dir\']
+  ignore line: [ c:/gnuarm/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1.exe -quiet -v -iprefix c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/ -isysroot c:\gnuarm\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_51ce6.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\hoang\AppData\Local\Temp\cc55IxFU.s]
+  ignore line: [GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\gnuarm\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "c:\gnuarm\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/include]
+  ignore line: [ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+  ignore line: [ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 09cd87bee7d3ebbf93fc326691d67ce6]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_51ce6.dir\']
+  ignore line: [ c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.obj C:\Users\hoang\AppData\Local\Temp\cc55IxFU.s]
+  ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210]
+  ignore line: [COMPILER_PATH=c:/gnuarm/bin/../libexec/gcc/arm-none-eabi/12.2.1/]
+  ignore line: [c:/gnuarm/bin/../libexec/gcc/]
+  ignore line: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/]
+  ignore line: [c:/gnuarm/bin/../lib/gcc/]
+  ignore line: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/gnuarm/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_51ce6.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C static library libcmTC_51ce6.a]
+  ignore line: ["C:\Program Files (x86)\CMake\bin\cmake.exe" -P CMakeFiles\cmTC_51ce6.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_51ce6.dir\link.txt --verbose=1]
+  ignore line: [C:\gnuArm\bin\arm-none-eabi-ar qc libcmTC_51ce6.a CMakeFiles/cmTC_51ce6.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [C:\gnuArm\bin\arm-none-eabi-ranlib.exe libcmTC_51ce6.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_0b518/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0b518.dir\build.make CMakeFiles/cmTC_0b518.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0b518.dir/CMakeCXXCompilerABI.cpp.obj
+C:\gnuArm\bin\arm-none-eabi-g++.exe   -v -o CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=C:\gnuArm\bin\arm-none-eabi-g++.exe
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_0b518.dir\'
+ c:/gnuarm/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus.exe -quiet -v -iprefix c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/ -isysroot c:\gnuarm\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_0b518.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\hoang\AppData\Local\Temp\ccuE4Ao1.s
+GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"
+ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"
+ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"
+ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"
+ignoring nonexistent directory "c:\gnuarm\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.2.1/../../../../include"
+ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"
+ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"
+ignoring nonexistent directory "c:\gnuarm\bin\../arm-none-eabi/usr/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1
+ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi
+ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward
+ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/include
+ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/include-fixed
+ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)
+	compiled by GNU C version 9.3-win32 20200320, GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 4d2c90a3e8606aea6694b84ca09b7e5e
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_0b518.dir\'
+ c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\hoang\AppData\Local\Temp\ccuE4Ao1.s
+GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210
+COMPILER_PATH=c:/gnuarm/bin/../libexec/gcc/arm-none-eabi/12.2.1/;c:/gnuarm/bin/../libexec/gcc/;c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/;c:/gnuarm/bin/../lib/gcc/;c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/;c:/gnuarm/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX static library libcmTC_0b518.a
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -P CMakeFiles\cmTC_0b518.dir\cmake_clean_target.cmake
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0b518.dir\link.txt --verbose=1
+C:\gnuArm\bin\arm-none-eabi-ar qc libcmTC_0b518.a CMakeFiles/cmTC_0b518.dir/CMakeCXXCompilerABI.cpp.obj
+C:\gnuArm\bin\arm-none-eabi-ranlib.exe libcmTC_0b518.a
+mingw32-make.exe[1]: Leaving directory 'D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
+    add: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+    add: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
+    add: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/include]
+    add: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+    add: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+  end of search list found
+  collapse include dir [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1] ==> [C:/gnuArm/arm-none-eabi/include/c++/12.2.1]
+  collapse include dir [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi] ==> [C:/gnuArm/arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+  collapse include dir [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward] ==> [C:/gnuArm/arm-none-eabi/include/c++/12.2.1/backward]
+  collapse include dir [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/include] ==> [C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include]
+  collapse include dir [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/include-fixed] ==> [C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+  collapse include dir [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include] ==> [C:/gnuArm/arm-none-eabi/include]
+  implicit include dirs: [C:/gnuArm/arm-none-eabi/include/c++/12.2.1;C:/gnuArm/arm-none-eabi/include/c++/12.2.1/arm-none-eabi;C:/gnuArm/arm-none-eabi/include/c++/12.2.1/backward;C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include;C:/gnuArm/lib/gcc/arm-none-eabi/12.2.1/include-fixed;C:/gnuArm/arm-none-eabi/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-none-eabi-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_0b518/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\cmTC_0b518.dir\build.make CMakeFiles/cmTC_0b518.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0b518.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\gnuArm\bin\arm-none-eabi-g++.exe   -v -o CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.obj -c "C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=C:\gnuArm\bin\arm-none-eabi-g++.exe]
+  ignore line: [Target: arm-none-eabi]
+  ignore line: [Configured with: /data/jenkins/workspace/GNU-toolchain/arm-12/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-gnu-as --with-gnu-ld --with-sysroot=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/arm-none-eabi --with-multilib-list=aprofile,rmprofile --with-libiconv-prefix=/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/host-tools --host=i686-w64-mingw32 --with-pkgversion='Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)' --with-bugurl=https://bugs.linaro.org/]
+  ignore line: [Thread model: single]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 12.2.1 20221205 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_0b518.dir\']
+  ignore line: [ c:/gnuarm/bin/../libexec/gcc/arm-none-eabi/12.2.1/cc1plus.exe -quiet -v -iprefix c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/ -isysroot c:\gnuarm\bin\../arm-none-eabi -D__USES_INITFINI__ C:\Program Files (x86)\CMake\share\cmake-3.24\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_0b518.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o C:\Users\hoang\AppData\Local\Temp\ccuE4Ao1.s]
+  ignore line: [GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1"]
+  ignore line: [ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi"]
+  ignore line: [ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward"]
+  ignore line: [ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include"]
+  ignore line: [ignoring nonexistent directory "c:\gnuarm\bin\../arm-none-eabi/data/jenkins/workspace/GNU-toolchain/arm-12/build-mingw-arm-none-eabi/install/lib/gcc/arm-none-eabi/12.2.1/../../../../include"]
+  ignore line: [ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/include-fixed"]
+  ignore line: [ignoring duplicate directory "c:/gnuarm/lib/gcc/../../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include"]
+  ignore line: [ignoring nonexistent directory "c:\gnuarm\bin\../arm-none-eabi/usr/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1]
+  ignore line: [ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/arm-none-eabi]
+  ignore line: [ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include/c++/12.2.1/backward]
+  ignore line: [ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/include]
+  ignore line: [ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/include-fixed]
+  ignore line: [ c:\gnuarm\bin\../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) version 12.2.1 20221205 (arm-none-eabi)]
+  ignore line: [	compiled by GNU C version 9.3-win32 20200320  GMP version 6.2.1  MPFR version 3.1.6  MPC version 1.0.3  isl version isl-0.15-1-g835ea3a-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 4d2c90a3e8606aea6694b84ca09b7e5e]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_0b518.dir\']
+  ignore line: [ c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/as.exe -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\hoang\AppData\Local\Temp\ccuE4Ao1.s]
+  ignore line: [GNU assembler version 2.39.0 (arm-none-eabi) using BFD version (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 2.39.0.20221210]
+  ignore line: [COMPILER_PATH=c:/gnuarm/bin/../libexec/gcc/arm-none-eabi/12.2.1/]
+  ignore line: [c:/gnuarm/bin/../libexec/gcc/]
+  ignore line: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/bin/]
+  ignore line: [LIBRARY_PATH=c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/]
+  ignore line: [c:/gnuarm/bin/../lib/gcc/]
+  ignore line: [c:/gnuarm/bin/../lib/gcc/arm-none-eabi/12.2.1/../../../../arm-none-eabi/lib/]
+  ignore line: [c:/gnuarm/bin/../arm-none-eabi/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles\cmTC_0b518.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX static library libcmTC_0b518.a]
+  ignore line: ["C:\Program Files (x86)\CMake\bin\cmake.exe" -P CMakeFiles\cmTC_0b518.dir\cmake_clean_target.cmake]
+  ignore line: ["C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0b518.dir\link.txt --verbose=1]
+  ignore line: [C:\gnuArm\bin\arm-none-eabi-ar qc libcmTC_0b518.a CMakeFiles/cmTC_0b518.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [C:\gnuArm\bin\arm-none-eabi-ranlib.exe libcmTC_0b518.a]
+  ignore line: [mingw32-make.exe[1]: Leaving directory 'D:/Study/armCortex-M3M4Processor/Stm32BareMetal/cmakeAutoBuild/CMakeFiles/CMakeTmp']
+  ignore line: []
+  ignore line: []
+  implicit libs: []
+  implicit objs: []
+  implicit dirs: []
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+arm-none-eabi-gcc.exe (Arm GNU Toolchain 12.2.Rel1 (Build arm-12.24)) 12.2.1 20221205
+Copyright (C) 2022 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+

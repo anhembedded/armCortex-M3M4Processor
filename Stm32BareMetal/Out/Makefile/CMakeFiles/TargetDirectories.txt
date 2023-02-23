@@ -1,4 +1,3 @@
-D:/Study/armCortex-M3M4Processor/Stm32BareMetal/Out/Makefile/CMakeFiles/stmBareMetalmyObj.dir
-D:/Study/armCortex-M3M4Processor/Stm32BareMetal/Out/Makefile/CMakeFiles/learnArmComplier.dir
+D:/Study/armCortex-M3M4Processor/Stm32BareMetal/Out/Makefile/CMakeFiles/learnArmComplier.out.dir
 D:/Study/armCortex-M3M4Processor/Stm32BareMetal/Out/Makefile/CMakeFiles/edit_cache.dir
 D:/Study/armCortex-M3M4Processor/Stm32BareMetal/Out/Makefile/CMakeFiles/rebuild_cache.dir

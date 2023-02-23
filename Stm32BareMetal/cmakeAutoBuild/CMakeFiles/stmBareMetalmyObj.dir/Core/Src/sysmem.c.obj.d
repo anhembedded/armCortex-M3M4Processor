@@ -1,0 +1,20 @@
+CMakeFiles/stmBareMetalmyObj.dir/Core/Src/sysmem.c.obj: \
+ D:\Study\armCortex-M3M4Processor\Stm32BareMetal\Core\Src\sysmem.c \
+ c:\gnuarm\arm-none-eabi\include\errno.h \
+ c:\gnuarm\arm-none-eabi\include\sys\errno.h \
+ c:\gnuarm\arm-none-eabi\include\sys\reent.h \
+ c:\gnuarm\arm-none-eabi\include\_ansi.h \
+ c:\gnuarm\arm-none-eabi\include\newlib.h \
+ c:\gnuarm\arm-none-eabi\include\_newlib_version.h \
+ c:\gnuarm\arm-none-eabi\include\sys\config.h \
+ c:\gnuarm\arm-none-eabi\include\machine\ieeefp.h \
+ c:\gnuarm\arm-none-eabi\include\sys\features.h \
+ c:\gnuarm\lib\gcc\arm-none-eabi\12.2.1\include\stddef.h \
+ c:\gnuarm\arm-none-eabi\include\sys\_types.h \
+ c:\gnuarm\arm-none-eabi\include\machine\_types.h \
+ c:\gnuarm\arm-none-eabi\include\machine\_default_types.h \
+ c:\gnuarm\arm-none-eabi\include\sys\lock.h \
+ c:\gnuarm\lib\gcc\arm-none-eabi\12.2.1\include\stdint.h \
+ c:\gnuarm\arm-none-eabi\include\stdint.h \
+ c:\gnuarm\arm-none-eabi\include\sys\_intsup.h \
+ c:\gnuarm\arm-none-eabi\include\sys\_stdint.h
